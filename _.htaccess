@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule ^admin$ admin.php [NC,L]
+RewriteRule ^chat$ chat.php [NC,L]
+RewriteRule ^delete$ delete.php [NC,L]
+RewriteRule ^messages$ messages.php [NC,L]
+RewriteRule ^send_message$ send_message.php [NC,L]
+RewriteRule ^index$ index.php [NC,L]
+RewriteRule ^banneduser$ ban.php [NC,L]
+RewriteRule ^users$ listuser.php [NC,L]
